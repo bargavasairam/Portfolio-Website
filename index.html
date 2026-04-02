@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Portfolio</h1>
+    <p>Welcome, I am Bargava Sairam, BTech CSE student at GITAM Visakhapatnam</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact-me">Contact</a></li>
+      <li><a href="#admin-login" id="admin-link">Admin</a></li>
+    </ul>
+  </nav>
+
+  <button id="switch-theme">Toggle Theme</button>
+
+  <main>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2>Education</h2>
+      <div>
+        <h3>BTech CSE</h3>
+        <p>GITAM University, Visakhapatnam (2025)</p>
+      </div>
+      <div>
+        <h3>Intermediate (MPC)</h3>
+        <p>Narayana, Visakhapatnam (2023)</p>
+      </div>
+      <div>
+        <h3>10th Standard</h3>
+        <p>PVHS, Visakhapatnam (2021)</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <div>
+        <h3>Intern - Embrizon</h3>
+        <p>Worked on web development projects</p>
+      </div>
+      <div>
+        <h3>GITAM Venture Course</h3>
+        <p>Frontend design for bike riding project</p>
+      </div>
+      <div>
+        <h3>Design Thinking Project</h3>
+        <p>Worked on MediLocator app (UI + Firebase basics)</p>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <p>JEE Mains – 94%</p>
+      <p>Intermediate – 93.5%</p>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <p>Reading sci-fi books</p>
+      <p>Coding in free time</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact-me">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- ADMIN LOGIN -->
+    <section id="admin-login" style="display:none;">
+      <h2>Admin Login</h2>
+      <form>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
